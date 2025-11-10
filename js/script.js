@@ -10,11 +10,3 @@ function init() {
   alert('Ariel Tvishor: ' + text.value);
   bottomText.innerHTML = text.value;
 }
-
-
-
-
-
-
-
-window.addEventListener('load', init);
