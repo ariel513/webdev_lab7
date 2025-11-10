@@ -6,6 +6,7 @@ js.addEventListener("click", init);
 
 function init() {
 //add your javascrip between these two lines of code
+  bottomText.innerHTML = "Show Results Here";
   var text = document.getElementById('entryinput');
   alert('Ariel Tvishor: ' + text.value);
   bottomText.innerHTML = text.value;
